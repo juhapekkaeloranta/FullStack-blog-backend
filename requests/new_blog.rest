@@ -1,0 +1,10 @@
+POST http://localhost:3003/api/blogs 
+content-type: application/json
+Authorization: bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6Im1sdXVra2FpIiwiaWQiOiI1YTkwMTk2ZTdjMGRiNjAyM2EzOWVlMDAiLCJpYXQiOjE1MTkzOTMxNDJ9.TkNEPSKEumPiE2xfx5HzpwZ_CrChhWZ1VirRq4VmXEY
+
+{
+  "title": "finally dasdasdone",
+  "author": "Martin Fowler",
+  "url": "https://martinfowler.com/bliki/ContinuousIntegrationCertification.html",
+  "likes": 0
+}
